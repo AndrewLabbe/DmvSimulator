@@ -18,7 +18,8 @@ public class DmvSimulator {
 		}
 		
 		System.out.println("Now serving number " + currentNum);
-		System.out.println("You don't even have your paperwork! Do you just want to waste everyone's time?!? \n GET OUT!!!");
+		System.out.println("You don't even have your paperwork! Do you just want to waste everyone's time?!? \n GET OUT!!!"
+				+ "\nHA!HA!HA!HA! *laughs evily*");
 	}
 	
 }
