@@ -24,7 +24,8 @@ public class DmvSimulator {
 			System.out.println("Wow you actually have all the required papers, you're all set.");
 		}
 		else {
-			System.out.println("You don't even have your paperwork! Do you just want to waste everyone's time?!? \n GET OUT!!!");
+			System.out.println("You don't even have your paperwork! Do you just want to waste everyone's time?!? "
+					+ "\n GET OUT!!!" + "\nHA!HA!HA!HA! *laughs evily*");
 		}
 		
 	}
