@@ -18,7 +18,15 @@ public class DmvSimulator {
 		}
 		
 		System.out.println("Now serving number " + currentNum);
-		System.out.println("You don't even have your paperwork! Do you just want to waste everyone's time?!? \n GET OUT!!!");
+		
+		randomNum = Math.round(Math.random() * (100) + 1);
+		if(randomNum == 1) {
+			System.out.println("Wow you actually have all the required papers, you're all set.");
+		}
+		else {
+			System.out.println("You don't even have your paperwork! Do you just want to waste everyone's time?!? \n GET OUT!!!");
+		}
+		
 	}
 	
 }
